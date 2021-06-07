@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"o_ship","path":"objects/o_ship/o_ship.yy",},"order":1,},
+    {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
+    {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":0,},
+    {"id":{"name":"s_ship","path":"sprites/s_ship/s_ship.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
