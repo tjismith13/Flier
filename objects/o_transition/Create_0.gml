@@ -12,7 +12,8 @@ enum trans_mode {
 	NEXT,
 	GOTO,
 	RESTART,
-	INTRO
+	INTRO,
+	DEAD
 }
 
 mode = trans_mode.INTRO;

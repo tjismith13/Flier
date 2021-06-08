@@ -29,6 +29,11 @@ if(mode != trans_mode.OFF) {
 				game_restart();
 				break;
 			}
+			case(trans_mode.DEAD): {
+				game_restart();
+				draw_text_color(w / 2, h / 2,  "YOU DIED", c_white, c_white, c_white, c_white, 1);
+				break;
+			}
 		}
 	}
 }

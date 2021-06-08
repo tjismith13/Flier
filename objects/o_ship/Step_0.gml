@@ -21,3 +21,18 @@ else if(keyboard_check(vk_left) and not keyboard_check(vk_right)) {
 image_angle = angle;
 y -= dcos(angle) * linear_sp;
 x -= dsin(angle) * linear_sp;
+
+if(place_meeting(x, y, o_wall)) {
+	hp -= 15;
+}
+
+if(hp <= 0) {
+	dead();
+}
+
+function dead() {
+	linear_sp = 0;
+	image_index = 2;
+	file_delete(SAVEFILE);
+	Transition(trans_mode.DEAD);
+}
