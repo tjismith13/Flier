@@ -28,3 +28,8 @@ for(var i = 0; i < menu_items; i ++) {
 	draw_set_color(color);
 	draw_text(xx, yy, txt);
 }
+with(o_transition) {
+	draw_set_font(FlierFont);
+	if(title) draw_text_color(w / 2 + 100, h / 2,  "FLIER", c_white, c_white, c_white, c_white, 1);
+	if(dead_title) draw_text_color(w / 2, h / 2,  "YOU DIED", c_white, c_white, c_white, c_white, 1);
+}

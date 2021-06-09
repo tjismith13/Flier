@@ -21,6 +21,9 @@ if(menu_control) {
 		menu_committed = menu_cursor;
 		ScreenShake(4, 30);
 		menu_control = false;
+		with(o_transition) {
+			title = false;
+		}
 	}
 }
 

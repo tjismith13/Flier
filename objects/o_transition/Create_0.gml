@@ -19,3 +19,6 @@ enum trans_mode {
 mode = trans_mode.INTRO;
 percent = 1;
 target = room;
+
+title = true;
+dead_title = false;
