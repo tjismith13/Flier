@@ -1,8 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-angle = 0
-hascontrol = true
-linear_sp = 0
-hp = 15
-flash = 0;
+sp = 5;
+
+x_sp = 0;
+y_sp = 0;
+
+dir = random_range(0, 360);
+
+y_sign = 1;
+x_sign = 1;
