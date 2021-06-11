@@ -26,6 +26,10 @@ if(mode != trans_mode.OFF) {
 				break;
 			}
 			case(trans_mode.RESTART): {
+				var rsfile;
+				rsfile = file_text_open_write(HPFILE);
+				file_text_write_real(rsfile, 15);
+				file_text_close(rsfile);
 				game_restart();
 				break;
 			}

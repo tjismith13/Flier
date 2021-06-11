@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 #macro SAVEFILE "saveFlier.sav"
+#macro HPFILE "shipHP.sav"
 
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();

@@ -29,7 +29,11 @@ if(menu_control) {
 
 if((menu_x > gui_width + 150) and (menu_committed != -1)) {
 	switch(menu_committed) {
-		case 2: default: Transition(trans_mode.GOTO, Room1); break;
+		case 2: default: {
+			if(file_exists(HPFILE)) file_delete(HPFILE);
+			Transition(trans_mode.GOTO, Room1);
+			break;
+		}
 		case 1: {
 			if(!file_exists(SAVEFILE)) {
 				Transition(trans_mode.GOTO, Room1);

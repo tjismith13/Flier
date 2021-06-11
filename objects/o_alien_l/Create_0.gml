@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sp = 6;
+sp = 2;
 
 x_sp = 0;
 y_sp = 0;
