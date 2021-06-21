@@ -6,6 +6,7 @@ sp = 2;
 x_sp = 0;
 y_sp = 0;
 
+//randomize direction
 dir = random_range(0, 360);
 
 y_sign = 1;

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Determine speed, check for wall collisions and bounce if so
 x_sp = dcos(dir) * sp;
 y_sp = dsin(dir) * sp;
 

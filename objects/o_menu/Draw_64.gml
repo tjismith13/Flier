@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//set fonts
 draw_set_font(TitleFont);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 
+//display menu items
 for(var i = 0; i < menu_items; i ++) {
 	var offset = 2;
 	var txt = menu[i];
@@ -28,8 +30,11 @@ for(var i = 0; i < menu_items; i ++) {
 	draw_set_color(color);
 	draw_text(xx, yy, txt);
 }
+
+//Decide title text to display
 with(o_transition) {
 	draw_set_font(FlierFont);
-	if(title) draw_text_color(w / 2 + 100, h / 2,  "FLIER", c_white, c_white, c_white, c_white, 1);
+	if(title and not game_won) draw_text_color(w / 2 + 100, h / 2,  "FLIER", c_white, c_white, c_white, c_white, 1);
 	if(dead_title) draw_text_color(w / 2, h / 2,  "YOU DIED", c_white, c_white, c_white, c_white, 1);
+	if(game_won) draw_text_color(w / 2 + 100, h / 2,  "YOU WON!", c_white, c_white, c_white, c_white, 1);
 }

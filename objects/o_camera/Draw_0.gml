@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Display HP
 // You can write your code in this editor
 draw_set_font(TitleFont);
 draw_set_halign(fa_right);

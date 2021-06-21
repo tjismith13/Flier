@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Diminish HP and spawn replacement
 // You can write your code in this editor
 
 with(other) {

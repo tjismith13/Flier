@@ -27,6 +27,7 @@ if(menu_control) {
 	}
 }
 
+//commit menu selection
 if((menu_x > gui_width + 150) and (menu_committed != -1)) {
 	switch(menu_committed) {
 		case 2: default: {

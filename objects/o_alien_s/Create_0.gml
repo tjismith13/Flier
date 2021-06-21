@@ -10,3 +10,5 @@ dir = random_range(0, 360);
 
 y_sign = 1;
 x_sign = 1;
+
+//Same as o_alien_l with different speed

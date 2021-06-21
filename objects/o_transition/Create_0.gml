@@ -20,5 +20,7 @@ mode = trans_mode.INTRO;
 percent = 1;
 target = room;
 
+//States for showing title words
 title = true;
 dead_title = false;
+game_won = false;

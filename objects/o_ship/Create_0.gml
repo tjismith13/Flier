@@ -7,6 +7,7 @@ linear_sp = 0
 flash = 0;
 hp = 15;
 
+//Check HP file (to allow HP to maintain HP through room changes)
 if(file_exists(HPFILE)) {
 	var hpfile = file_text_open_read(HPFILE);
 	hp = file_text_read_real(hpfile);

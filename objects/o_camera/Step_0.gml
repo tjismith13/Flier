@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Camera follow ship
 // You can write your code in this editor
 
 if(instance_exists(follow)) {

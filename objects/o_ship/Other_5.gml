@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Save HP at the end of the room
 // You can write your code in this editor
 if(file_exists(HPFILE)) file_delete(HPFILE);
 

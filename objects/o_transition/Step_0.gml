@@ -1,6 +1,8 @@
 /// @description Progress the transition
 // You can write your code in this editor
 
+
+//Assess mode of the transition using break statement and perform according actions
 if(mode != trans_mode.OFF) {
 	if(mode == trans_mode.INTRO) {
 		percent = max(0, percent - max((percent / 10), 0.005));
@@ -34,8 +36,8 @@ if(mode != trans_mode.OFF) {
 				break;
 			}
 			case(trans_mode.DEAD): {
-				game_restart();
 				dead_title = true;
+				game_restart();
 				break;
 			}
 		}
